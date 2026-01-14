@@ -5955,6 +5955,10 @@
 		(uuid "8890912e-e113-441c-8233-3f0a19d45b91")
 	)
 	(no_connect
+		(at 246.38 114.3)
+		(uuid "8d5ec17b-ac31-472b-98c2-15f6944a64c1")
+	)
+	(no_connect
 		(at 229.87 139.7)
 		(uuid "9892139b-61e0-420a-9315-4c550962a220")
 	)
@@ -5977,6 +5981,10 @@
 	(no_connect
 		(at 229.87 142.24)
 		(uuid "acaaeaaa-67f2-418e-a544-4f85c4f4c7a8")
+	)
+	(no_connect
+		(at 246.38 116.84)
+		(uuid "b06ebfc3-c7b9-491f-b002-a360b19a816f")
 	)
 	(no_connect
 		(at 25.4 55.88)
@@ -8816,7 +8824,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x07_Pin"
+		(property "Value" "メモリ"
 			(at 139.7 45.72 90)
 			(effects
 				(font
@@ -9106,7 +9114,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KiCad_UCLAMP3381:UCLAMP3381PTFT"
+		(property "Footprint" "KiCad_TVS:SOD2513X114N"
 			(at -4.75 177.8 0)
 			(effects
 				(font
@@ -9422,7 +9430,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x04_Pin"
+		(property "Value" "GPS"
 			(at 132.334 33.274 0)
 			(effects
 				(font
@@ -9696,7 +9704,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x04_Pin"
+		(property "Value" "2F接続"
 			(at 289.814 103.124 0)
 			(effects
 				(font
@@ -9844,7 +9852,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KiCad_UCLAMP3381:UCLAMP3381PTFT"
+		(property "Footprint" "KiCad_TVS:SOD2513X114N"
 			(at 4.14 180.34 0)
 			(effects
 				(font
@@ -9999,6 +10007,72 @@
 			(project ""
 				(path "/de8f0bed-146c-45b2-86fe-01234c757410"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 246.38 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3be9ab2c-7733-432f-a922-a19761781a5e")
+		(property "Reference" "#PWR047"
+			(at 246.38 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 246.38 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 246.38 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d1c7f115-0dea-4b7f-a093-ef6a0b78bb4d")
+		)
+		(instances
+			(project ""
+				(path "/de8f0bed-146c-45b2-86fe-01234c757410"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -10651,7 +10725,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KiCad_UCLAMP3381:UCLAMP3381PTFT"
+		(property "Footprint" "KiCad_TVS:SOD2513X114N"
 			(at 37.16 185.42 0)
 			(effects
 				(font
@@ -11722,6 +11796,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 246.38 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "740e4c5e-8e61-43d2-bcb3-0dcdb0dab0d3")
+		(property "Reference" "#PWR038"
+			(at 246.38 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 246.38 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 246.38 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "432ee528-888b-469e-b9b1-f83d1823fa50")
+		)
+		(instances
+			(project "TRC2026"
+				(path "/de8f0bed-146c-45b2-86fe-01234c757410"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "UCLAMP3381P_TFT:UCLAMP3381P.TFT")
 		(at 50.8 167.64 270)
 		(unit 1)
@@ -11748,7 +11888,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KiCad_UCLAMP3381:UCLAMP3381PTFT"
+		(property "Footprint" "KiCad_TVS:SOD2513X114N"
 			(at -42.85 180.34 0)
 			(effects
 				(font
@@ -11991,7 +12131,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x04_Pin"
+		(property "Value" "2F接続"
 			(at 272.034 103.124 0)
 			(effects
 				(font
@@ -12708,7 +12848,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KiCad_UCLAMP3381:UCLAMP3381PTFT"
+		(property "Footprint" "KiCad_TVS:SOD2513X114N"
 			(at 51.13 182.88 0)
 			(effects
 				(font
@@ -12821,7 +12961,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Conn_01x12_Pin"
+		(property "Value" "LoRa"
 			(at 31.75 53.3399 0)
 			(effects
 				(font
@@ -13232,6 +13372,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 241.3 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c8105a9-1e3f-4979-9397-4d49052aa763")
+		(property "Reference" "J6"
+			(at 241.554 100.584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 241.554 103.124 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 241.3 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 241.3 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8d76dcdf-4031-4e15-afbd-99ae17fc3ed2")
+		)
+		(pin "3"
+			(uuid "9118f7ca-1b23-4271-9960-e8eae522dbbb")
+		)
+		(pin "1"
+			(uuid "9ddf649f-bdd5-4d14-a068-000289cee50b")
+		)
+		(pin "4"
+			(uuid "155ee6c3-1aeb-420c-b19f-034a9d3dfa19")
+		)
+		(instances
+			(project "TRC2026"
+				(path "/de8f0bed-146c-45b2-86fe-01234c757410"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 140.97 118.11 0)
 		(unit 1)
@@ -13544,7 +13757,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x04_Pin"
+		(property "Value" "2F接続"
 			(at 308.864 103.124 0)
 			(effects
 				(font
@@ -14309,7 +14522,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x04_Pin"
+		(property "Value" "BNO055"
 			(at 145.415 16.51 0)
 			(effects
 				(font
@@ -14392,7 +14605,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "KiCad_UCLAMP3381:UCLAMP3381PTFT"
+		(property "Footprint" "KiCad_TVS:SOD2513X114N"
 			(at -51.74 177.8 0)
 			(effects
 				(font
@@ -14919,7 +15132,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x07_Pin"
+		(property "Value" "気温気圧高度センサ"
 			(at 99.06 40.64 90)
 			(effects
 				(font
@@ -15943,7 +16156,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x04_Pin"
+		(property "Value" "2F接続"
 			(at 255.524 103.124 0)
 			(effects
 				(font

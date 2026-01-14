@@ -139,7 +139,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -189,7 +189,16 @@
       "track_widths": [
         0.0,
         0.5,
-        0.75
+        0.75,
+        1.0,
+        2.0,
+        2.5,
+        3.0,
+        4.0,
+        5.0,
+        7.0,
+        7.5,
+        10.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -221,6 +230,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 1.5,
+          "drill": 1.0
+        },
+        {
+          "diameter": 7.5,
+          "drill": 6.5
         }
       ],
       "zones_allow_external_fillets": false
