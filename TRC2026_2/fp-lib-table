@@ -11,4 +11,5 @@
   (lib (name "KiCad_SS22E01")(type "KiCad")(uri "${KIPRJMOD}/Kicad_switch_SS22E01G5-HA-G/KiCad_SS22E01")(options "")(descr ""))
   (lib (name "KiCad_TJ60S04M3L")(type "KiCad")(uri "${KIPRJMOD}/KiCad_TJ60S04M3L")(options "")(descr ""))
   (lib (name "KiCad_UCLAMP3381")(type "KiCad")(uri "${KIPRJMOD}/KiCad_UCLAMP3381")(options "")(descr ""))
+  (lib (name "g")(type "KiCad")(uri "${KIPRJMOD}/g.pretty")(options "")(descr ""))
 )
