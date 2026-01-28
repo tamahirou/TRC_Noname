@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "KiCad_TP0")(type "KiCad")(uri "${KIPRJMOD}/KiCad_TP0")(options "")(descr ""))
+  (lib (name "KiCad_16SEPC470M")(type "KiCad")(uri "${KIPRJMOD}/KiCad_16SEPC470M")(options "")(descr ""))
+  (lib (name "kicad_3MS1J102M2QES")(type "KiCad")(uri "${KIPRJMOD}/KiCad_3MS1J102M2QES/kicad_3MS1J102M2QES.pretty")(options "")(descr ""))
+)

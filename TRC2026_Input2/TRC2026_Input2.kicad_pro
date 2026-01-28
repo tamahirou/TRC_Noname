@@ -58,7 +58,28 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_edge_clearance|144090000|115830000|9678b103-5cc7-4de4-94d9-5062edd6ca40|16d46ada-6eda-44e9-b58b-0c8a9a82c80e",
+          ""
+        ],
+        [
+          "silk_edge_clearance|145470000|115830000|9678b103-5cc7-4de4-94d9-5062edd6ca40|300542e4-e0e2-4617-972c-79d81c93a03e",
+          ""
+        ],
+        [
+          "silk_edge_clearance|146740000|115830000|9678b103-5cc7-4de4-94d9-5062edd6ca40|613821fd-b4e2-46f0-8a56-9d04bd282ae6",
+          ""
+        ],
+        [
+          "silk_edge_clearance|146740000|115830000|9678b103-5cc7-4de4-94d9-5062edd6ca40|8a3e5195-b823-46bf-b02e-21362d6a654a",
+          ""
+        ],
+        [
+          "silk_edge_clearance|157010000|115830000|9678b103-5cc7-4de4-94d9-5062edd6ca40|a179fd39-2569-43bc-b0d4-cf7c742d4354",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -189,8 +210,7 @@
       "track_widths": [
         0.0,
         0.5,
-        0.75,
-        1.0
+        0.75
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -467,7 +487,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "TRC2026_Input.kicad_pro",
+    "filename": "TRC2026_Input2.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -627,7 +647,7 @@
   },
   "sheets": [
     [
-      "4f76adb4-562e-493f-a8b6-b899bc774c10",
+      "b8b83729-b4aa-4a20-8577-ec48fda0bc33",
       "Root"
     ]
   ],

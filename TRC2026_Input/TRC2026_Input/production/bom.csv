@@ -1,0 +1,7 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+A1,RaspberryPi_Pico_Common_Unspecified,1,RaspberryPi_Pico_W,
+"C1, C6",0603,2,0.1μF,
+"C2, C4, C5",CP_Radial_D8.0mm_P3.50mm,3,100μF,
+J22,PinSocket_1x12_P2.54mm_Vertical,1,LoRa,
+J23,PinSocket_1x12_P2.54mm_Vertical,1,Conn_01x12_Pin,
+"J3, J4, J5, J6",PinHeader_1x05_P2.54mm_Vertical,4,2F接続,
