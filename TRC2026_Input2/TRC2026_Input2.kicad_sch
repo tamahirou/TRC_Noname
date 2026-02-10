@@ -1741,107 +1741,16 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:PWR_FLAG"
-			(power)
-			(pin_numbers
-				(hide yes)
+	)
+	(text "picoの内蔵プルアップ抵抗を入れること"
+		(exclude_from_sim no)
+		(at 98.298 106.426 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
 		)
+		(uuid "0fe6fb55-45fe-48d1-b7e8-8d4e10776ef4")
 	)
 	(text_box "電源チェック"
 		(exclude_from_sim no)
@@ -2000,12 +1909,6 @@
 		(uuid "6bdb6044-c866-41c4-bc4e-e772a903bee9")
 	)
 	(junction
-		(at 106.68 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "71c74164-d283-4242-8589-1007725f3476")
-	)
-	(junction
 		(at 116.84 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2042,6 +1945,10 @@
 	(no_connect
 		(at 125.73 52.07)
 		(uuid "0fceb5f2-8bb4-4d51-93f3-ec376f592927")
+	)
+	(no_connect
+		(at 104.14 93.98)
+		(uuid "12badac7-15c8-4a4f-9186-07c6f0a531e5")
 	)
 	(no_connect
 		(at 125.73 62.23)
@@ -2081,16 +1988,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 93.98) (xy 106.68 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16fa1f95-c82c-49cd-ac79-35cbb4d90e5b")
-	)
-	(wire
-		(pts
 			(xy 185.42 92.71) (xy 185.42 96.52)
 		)
 		(stroke
@@ -2121,16 +2018,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 95.25) (xy 106.68 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bb3d3fc-c37f-4461-abd3-1ce56c285098")
-	)
-	(wire
-		(pts
 			(xy 34.29 121.92) (xy 34.29 130.81)
 		)
 		(stroke
@@ -2138,16 +2025,6 @@
 			(type default)
 		)
 		(uuid "2bf7c672-c0d1-4638-b86b-995f755ac17d")
-	)
-	(wire
-		(pts
-			(xy 110.49 100.33) (xy 110.49 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e7288ae-20cb-4151-a7d4-8baf134dce87")
 	)
 	(wire
 		(pts
@@ -2478,26 +2355,6 @@
 			(type default)
 		)
 		(uuid "e55d81f2-74d2-40af-829b-3b5beb24ff1c")
-	)
-	(wire
-		(pts
-			(xy 106.68 93.98) (xy 104.14 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9410fac-b412-428b-9084-fbd06142c6f4")
-	)
-	(wire
-		(pts
-			(xy 110.49 95.25) (xy 106.68 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb0b9502-76c3-470a-a731-4949679f185b")
 	)
 	(wire
 		(pts
@@ -3628,7 +3485,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 67.2853 78.74 90)
 			(effects
 				(font
@@ -4919,72 +4776,6 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 110.49 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a9f53cd-9fc8-451c-9a13-2cf98ed7b46a")
-		(property "Reference" "#PWR019"
-			(at 110.49 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 110.49 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 110.49 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fd88d0fe-6110-4d4e-bf5e-1f2176db2be8")
-		)
-		(instances
-			(project "TRC2026_Input2"
-				(path "/b8b83729-b4aa-4a20-8577-ec48fda0bc33"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
 		(at 49.53 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5442,7 +5233,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 37.592 58.42 90)
 			(effects
 				(font
@@ -5617,72 +5408,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 110.49 100.33 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c913688c-c8cc-48fa-9a4c-b90526959583")
-		(property "Reference" "#FLG05"
-			(at 110.49 102.235 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 110.49 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 110.49 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a167f700-c87a-4ef2-9db3-ac342819c971")
-		)
-		(instances
-			(project "TRC2026_Input2"
-				(path "/b8b83729-b4aa-4a20-8577-ec48fda0bc33"
-					(reference "#FLG05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPDT")
 		(at 99.06 96.52 0)
 		(unit 1)
@@ -5781,7 +5506,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 68.072 58.42 90)
 			(effects
 				(font
@@ -5928,7 +5653,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 37.592 78.74 90)
 			(effects
 				(font

@@ -103,6 +103,7 @@
 	(net 23 "unconnected-(U1-NC-Pad4)")
 	(net 24 "unconnected-(U1-PG-Pad3)")
 	(net 25 "unconnected-(U1-NC-Pad5)")
+	(net 26 "unconnected-(SW2-A-Pad1)")
 	(footprint "3557-15:FUSE_3557-15"
 		(layer "F.Cu")
 		(uuid "00235e73-4e6e-4b22-95a2-7e1952a2f329")
@@ -4269,9 +4270,9 @@
 			(drill 1.85)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 19 "+3.3V")
+			(net 26 "unconnected-(SW2-A-Pad1)")
 			(pinfunction "A")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "23a0ba2a-519b-44ec-a820-7ade5509595b")
 		)
 		(pad "2" thru_hole circle
@@ -11322,22 +11323,6 @@
 		(layer "B.Cu")
 		(net 18)
 		(uuid "f11dcbe7-4d14-4a6b-ac6d-ac7101c58940")
-	)
-	(segment
-		(start 111 36.23)
-		(end 115.23 32)
-		(width 0.75)
-		(layer "F.Cu")
-		(net 19)
-		(uuid "cbc1790b-c7e6-4e7f-a78b-04add8a01b90")
-	)
-	(segment
-		(start 115.23 32)
-		(end 119.5 32)
-		(width 0.75)
-		(layer "F.Cu")
-		(net 19)
-		(uuid "f8fcf20f-d578-4a1b-aa5f-e5c68fad24eb")
 	)
 	(segment
 		(start 125.651 181.079)

@@ -2679,6 +2679,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "picoのプルアップ抵抗をつけること"
+		(exclude_from_sim no)
+		(at 43.18 176.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fb3f3ee1-aa6a-4b72-b771-962470e24c78")
+	)
 	(text_box "電源系"
 		(exclude_from_sim no)
 		(at 15.24 13.97 0)
@@ -2909,11 +2919,9 @@
 		(color 0 0 0 0)
 		(uuid "f8e5dfaa-bc03-4eb3-8fc5-6ac9fe578498")
 	)
-	(junction
-		(at 53.34 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fd43ed68-7bbb-4861-8669-5ea398770692")
+	(no_connect
+		(at 50.8 162.56)
+		(uuid "2f17d611-49b2-4811-b236-c40a9166f02d")
 	)
 	(no_connect
 		(at 53.34 41.91)
@@ -3006,16 +3014,6 @@
 			(type default)
 		)
 		(uuid "20af9e59-a213-4604-aca4-73e1ae3d35d8")
-	)
-	(wire
-		(pts
-			(xy 57.15 162.56) (xy 53.34 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "224eb827-dd8f-422f-9147-a6926aaec5aa")
 	)
 	(wire
 		(pts
@@ -3249,16 +3247,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 163.83) (xy 53.34 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6adffe06-a48f-40ac-b546-d5541b09ef50")
-	)
-	(wire
-		(pts
 			(xy 31.75 128.27) (xy 31.75 130.81)
 		)
 		(stroke
@@ -3276,16 +3264,6 @@
 			(type default)
 		)
 		(uuid "71247217-21ec-4576-b520-5a93bb2278ec")
-	)
-	(wire
-		(pts
-			(xy 53.34 162.56) (xy 50.8 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "755f7a5c-753d-40ae-83f9-261d1bf050ea")
 	)
 	(wire
 		(pts
@@ -3549,16 +3527,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 163.83) (xy 53.34 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5a3979b-740b-4aa6-86af-b91e6010d96f")
-	)
-	(wire
-		(pts
 			(xy 39.37 58.42) (xy 39.37 73.66)
 		)
 		(stroke
@@ -3696,16 +3664,6 @@
 			(type default)
 		)
 		(uuid "fb70cc81-6123-47e7-ad92-2f2a9c7b041a")
-	)
-	(wire
-		(pts
-			(xy 57.15 168.91) (xy 57.15 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc0aaedf-5804-4a3a-b850-8846e79ea5ae")
 	)
 	(wire
 		(pts
@@ -7310,72 +7268,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 57.15 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a9f53cd-9fc8-451c-9a13-2cf98ed7b46a")
-		(property "Reference" "#PWR019"
-			(at 57.15 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 57.15 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 57.15 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fd88d0fe-6110-4d4e-bf5e-1f2176db2be8")
-		)
-		(instances
-			(project ""
-				(path "/9879a251-74b6-4bc2-8c51-a63e732e52e2"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MBR3045FCT:MBR3045FCT")
 		(at 57.15 87.63 270)
 		(unit 1)
@@ -7866,72 +7758,6 @@
 			(project ""
 				(path "/9879a251-74b6-4bc2-8c51-a63e732e52e2"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 57.15 168.91 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c913688c-c8cc-48fa-9a4c-b90526959583")
-		(property "Reference" "#FLG05"
-			(at 57.15 170.815 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 57.15 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 57.15 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 57.15 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a167f700-c87a-4ef2-9db3-ac342819c971")
-		)
-		(instances
-			(project ""
-				(path "/9879a251-74b6-4bc2-8c51-a63e732e52e2"
-					(reference "#FLG05")
 					(unit 1)
 				)
 			)
