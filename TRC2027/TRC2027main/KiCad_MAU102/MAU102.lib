@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model MAU102
+#/1534512/1686337/2.50/4/2/Power Supply
+DEF MAU102 PS 0 30 Y Y 1 F N
+F0 "PS" 850 300 50 H V L CNN
+F1 "MAU102" 850 200 50 H V L CNN
+F2 "MAU101" 850 100 50 H I L CNN
+F3 "https://www.minmaxpower.com/storage/media/Product-MINMAX/MAU100/Document/MAU100_Datasheet.pdf" 850 0 50 H I L CNN
+F4 "The  MAU100 series is a range of 1W DC-DC converters in a small SIP Package featuring I/O isolation of 1000VDC. An excellent efficiency allows an operating temperature range of 40 to +85. These converters offer an economical solution for many applications where a voltage has to be isolated." 850 -100 50 H I L CNN "Description"
+F5 "10.45" 850 -200 50 H I L CNN "Height"
+F6 "Minmax" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MAU102" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X +VIN 1 0 0 200 R 50 50 0 0 P
+X -VIN 2 0 -100 200 R 50 50 0 0 P
+X -VOUT 4 0 -200 200 R 50 50 0 0 P
+X +VOUT 6 0 -300 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

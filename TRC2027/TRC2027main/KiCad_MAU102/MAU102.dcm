@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAU102
+D The  MAU100 series is a range of 1W DC-DC converters in a small SIP Package featuring I/O isolation of 1000VDC. An excellent efficiency allows an operating temperature range of 40 to +85. These converters offer an economical solution for many applications where a voltage has to be isolated.
+K
+F https://www.minmaxpower.com/storage/media/Product-MINMAX/MAU100/Document/MAU100_Datasheet.pdf
+$ENDCMP
+#
+#End Doc Library
