@@ -30,13 +30,14 @@ XH出力　最大電流3A
 
 | 題 | 値 |
 | :--- | :--- |
-| AnFAULT | GPIO13 |
-| BnFAULT | GPIO14 |
 | AIN1 | GPIO6 |
 | AIN2 | GPIO7 |
 | BIN1 | GPIO8 |
 | BIN2 | GPIO9 |
-
+| CIN1 | GPIO10 |
+| CIN2 | GPIO11 |
+| DIN1 | GPIO13 |
+| DIN2 | GPIO14 |
 ### 1-3.BNO055
 | 題 | 値 |
 | :--- | :--- |
@@ -76,8 +77,6 @@ XH出力　最大電流3A
 | 電源電圧 | 5V |
 | 通信方法 | UART (1) |
 | 通信ポート | GPIO4,5 |
-| M0(モード選択ピン) ※必須 | GPIO10 |
-| M1(モード選択ピン) ※必須 | GPIO11 |
 | AUX(状態表示ピン) | GPIO12 |
 
 モード選択:通常送受信モード: M0,M1ともにLow
@@ -107,12 +106,7 @@ XH出力　最大電流3A
 ### 1-11.FullColorLED
 | 題 | 値 |
 | :--- | :--- |
-| RED | GPIO20 |
-| Green | GPIO21 |
-| Blue | GPIO22 |
-| 特徴 | アノードコモン |
-| 電源電圧 | 3.3V |
-
+| 追加できるポート | なし |
 ### 1-12.I2C⇔UART変換
 | 題 | 値 |
 | :--- | :--- |
