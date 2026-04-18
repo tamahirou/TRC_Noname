@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ST12-303FCG
+D Pushbutton Switch
+K
+F http://akizukidenshi.com/download/ST-12-303FC-G_SPEC.pdf
+$ENDCMP
+#
+#End Doc Library

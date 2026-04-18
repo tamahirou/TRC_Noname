@@ -13,4 +13,6 @@
   (lib (name "UCLAMP3381P_TFT")(type "KiCad")(uri "${KIPRJMOD}/KiCad_UCLAMP3381/UCLAMP3381P_TFT.kicad_sym")(options "")(descr ""))
   (lib (name "MAU102")(type "KiCad")(uri "${KIPRJMOD}/KiCad_MAU102/MAU102.kicad_sym")(options "")(descr ""))
   (lib (name "OKL-T_6-W12N-C")(type "KiCad")(uri "${KIPRJMOD}/OKL_T_6_W12N_C/OKL-T_6-W12N-C.kicad_sym")(options "")(descr ""))
+  (lib (name "MCP23017-E_SP")(type "KiCad")(uri "${KIPRJMOD}/KiCad_MCP23017/MCP23017-E_SP.kicad_sym")(options "")(descr ""))
+  (lib (name "ST12-303FCG")(type "KiCad")(uri "${KIPRJMOD}/KiCad_ST12/ST12-303FCG.kicad_sym")(options "")(descr ""))
 )

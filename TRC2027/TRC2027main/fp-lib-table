@@ -14,4 +14,6 @@
   (lib (name "KiCad_UCLAMP3381")(type "KiCad")(uri "${KIPRJMOD}/KiCad_UCLAMP3381")(options "")(descr ""))
   (lib (name "KiCad_MAU102")(type "KiCad")(uri "${KIPRJMOD}/KiCad_MAU102")(options "")(descr ""))
   (lib (name "OKL_T_6_W12N_C")(type "KiCad")(uri "${KIPRJMOD}/OKL_T_6_W12N_C")(options "")(descr ""))
+  (lib (name "KiCad_MCP23017")(type "KiCad")(uri "${KIPRJMOD}/KiCad_MCP23017")(options "")(descr ""))
+  (lib (name "KiCad_ST12")(type "KiCad")(uri "${KIPRJMOD}/KiCad_ST12")(options "")(descr ""))
 )
