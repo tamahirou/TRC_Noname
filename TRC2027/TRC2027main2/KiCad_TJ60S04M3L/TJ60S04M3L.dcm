@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TJ60S04M3L
+D P-Channel 40 V 60A (Ta) 90W (Tc) Surface Mount DPAK+
+K
+F https://toshiba.semicon-storage.com/info/docget.jsp?did=11301&prodName=TJ60S04M3L
+$ENDCMP
+#
+#End Doc Library

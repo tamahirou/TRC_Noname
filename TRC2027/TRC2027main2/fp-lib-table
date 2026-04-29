@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "KiCad_UCLAMP3381")(type "KiCad")(uri "${KIPRJMOD}/KiCad_UCLAMP3381")(options "")(descr ""))
+  (lib (name "KiCad_MCP23017")(type "KiCad")(uri "${KIPRJMOD}/KiCad_MCP23017")(options "")(descr ""))
+  (lib (name "KiCad_ST12")(type "KiCad")(uri "${KIPRJMOD}/KiCad_ST12")(options "")(descr ""))
+)
