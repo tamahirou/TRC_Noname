@@ -1,4 +1,4 @@
-26800861179589410
+26804417996280905
 3557-15_fuse
 FUSE_3557-15
 
@@ -59371,7 +59371,7 @@ DRV8262DDWRModule
 
 
 0
-17
+13
 9
 Diode_SMD
 D_0201_0603Metric
@@ -70692,6 +70692,13 @@ Yellow 5381 Series LED
 0
 2
 2
+LM70880Module
+LM70880Module
+
+
+0
+12
+4
 LMR38025
 LMR
 
@@ -106511,6 +106518,13 @@ module usb pcb antenna
 0
 43
 43
+temp
+AMASS_XT30PW-M_1x02_P2.50mm_Horizontal
+Connector XT30 Horizontal PCB Male, https://www.tme.eu/Document/6eb2005a51a52592b3f19e8a450c54c8/XT30PW-M.pdf
+RC Connector XT30
+0
+4
+2
 temp
 JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical
 JST XH series connector, B5B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator

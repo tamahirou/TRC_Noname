@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SMMS1050-5R6M
+D Power Inductors 5.6uH +/-20% 8.5A SMD,11.5x10.0x5.0mm RoHS
+K
+F https://datasheet.lcsc.com/szlcsc/ShunXiang-Connaught-Elec-SMMS1050-5R6M_C149541.pdf
+$ENDCMP
+#
+#End Doc Library

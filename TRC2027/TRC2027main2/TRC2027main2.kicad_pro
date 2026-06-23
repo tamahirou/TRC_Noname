@@ -51,8 +51,79 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "lib_footprint_mismatch|186360000|63032500|265852e7-4f11-43cb-8ce4-91d20efeeceb|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_edge_clearance|176090000|48023000|04713dd0-af76-4b53-84ab-149555102edd|43bee074-cb4b-477f-907f-b42e3459bc9a",
+          ""
+        ],
+        [
+          "silk_edge_clearance|176142863|47999999|04713dd0-af76-4b53-84ab-149555102edd|c06605d0-86ae-4821-bb44-187e630d43a9",
+          ""
+        ],
+        [
+          "silk_edge_clearance|176360000|47960000|04713dd0-af76-4b53-84ab-149555102edd|88c8f054-dc60-418c-9e99-752a9e7a834d",
+          ""
+        ],
+        [
+          "silk_edge_clearance|178850000|47960000|04713dd0-af76-4b53-84ab-149555102edd|b34224ca-2e8d-4f18-9f04-73cfb929289d",
+          ""
+        ],
+        [
+          "silk_edge_clearance|178850000|48000000|04713dd0-af76-4b53-84ab-149555102edd|377d2f3a-7c0b-41fe-bd73-fad3f5828e38",
+          ""
+        ],
+        [
+          "silk_edge_clearance|181122061|47960000|04713dd0-af76-4b53-84ab-149555102edd|261e2bff-c34a-4cd7-98d7-3d418017cd19",
+          ""
+        ],
+        [
+          "silk_edge_clearance|182125000|47960000|04713dd0-af76-4b53-84ab-149555102edd|3c9dadb6-0fc1-433f-8e91-bad039b3352d",
+          ""
+        ],
+        [
+          "silk_edge_clearance|182460000|48000000|04713dd0-af76-4b53-84ab-149555102edd|d68897df-0acf-43e5-8570-ca4d9509cd57",
+          ""
+        ],
+        [
+          "silk_edge_clearance|190260000|48000000|04713dd0-af76-4b53-84ab-149555102edd|8427d16a-7162-4463-83c5-50adc0e2d542",
+          ""
+        ],
+        [
+          "silk_edge_clearance|190595000|47960000|04713dd0-af76-4b53-84ab-149555102edd|8669c282-0567-4bc1-a633-7f795f682fe9",
+          ""
+        ],
+        [
+          "silk_edge_clearance|192522061|47960000|04713dd0-af76-4b53-84ab-149555102edd|4e5c11cf-4cfe-472c-8008-fc4f30849b04",
+          ""
+        ],
+        [
+          "silk_edge_clearance|193870000|48000000|04713dd0-af76-4b53-84ab-149555102edd|ac41a4e0-64c6-4647-a3c1-fdfbcfce360e",
+          ""
+        ],
+        [
+          "silk_edge_clearance|196360000|47960000|04713dd0-af76-4b53-84ab-149555102edd|9a078837-0150-4021-8f42-4c9dffc85c88",
+          ""
+        ],
+        [
+          "silk_edge_clearance|196577255|47999999|04713dd0-af76-4b53-84ab-149555102edd|81d36539-1b88-40ab-9f86-d77147c91ddb",
+          ""
+        ],
+        [
+          "silk_edge_clearance|196630000|48023000|04713dd0-af76-4b53-84ab-149555102edd|a3a0ea86-8750-4566-8534-9cdc90b5346c",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -76,7 +147,7 @@
         "hole_clearance": "error",
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
-        "invalid_outline": "error",
+        "invalid_outline": "ignore",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
@@ -133,7 +204,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -180,7 +251,24 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.0,
+        0.2,
+        0.3,
+        0.5,
+        0.75,
+        1.0,
+        1.5,
+        1.8,
+        2.0,
+        2.5,
+        2.8,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +295,28 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.3,
+          "drill": 0.25
+        },
+        {
+          "diameter": 1.0,
+          "drill": 0.8
+        },
+        {
+          "diameter": 2.0,
+          "drill": 1.5
+        },
+        {
+          "diameter": 3.5,
+          "drill": 3.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
