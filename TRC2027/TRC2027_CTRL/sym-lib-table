@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TVGP01-G73BB")(type "KiCad")(uri "${KIPRJMOD}/KiCad_TP0/TVGP01-G73BB.kicad_sym")(options "")(descr ""))
+)
