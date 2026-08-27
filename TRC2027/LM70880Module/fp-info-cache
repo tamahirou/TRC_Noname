@@ -1,4 +1,4 @@
-26777994684034769
+26781563044876491
 AE-LCNV4-MOSFET
 AE-LCNV4-MOSFET
 
@@ -70602,12 +70602,26 @@ Yellow 5381 Series LED
 2
 2
 LM70880Module
+AMASS_XT30U-M_1x02_P5.0mm_Vertical
+Connector XT30 Vertical Cable Male, https://www.tme.eu/Document/7d9d972ae3468777f69ec2ee99897652/XT30U-M.pdf
+RC Connector XT30
+0
+2
+2
+LM70880Module
 LM70880Module
 
 
 0
-8
-2
+12
+4
+LM70880Module
+LM70880Module_1
+
+
+0
+4
+4
 LMR38025
 LMR
 

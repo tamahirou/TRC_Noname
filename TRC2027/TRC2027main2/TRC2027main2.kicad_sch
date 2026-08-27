@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "f037e400-9122-456c-a0d1-9b71a818692b")
-	(paper "A3" portrait)
+	(paper "A3")
 	(lib_symbols
 		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
@@ -6546,6 +6546,10 @@
 		(uuid "addd11e8-247b-4e36-a446-8a45d66e2d9e")
 	)
 	(no_connect
+		(at 20.32 58.42)
+		(uuid "ae5d5a71-ccac-48c5-ac03-2bdcca540be0")
+	)
+	(no_connect
 		(at 99.06 146.05)
 		(uuid "b390c8d9-620e-411f-b7da-6cee291ee3af")
 	)
@@ -6588,10 +6592,6 @@
 	(no_connect
 		(at 20.32 66.04)
 		(uuid "dd01ee0a-50b7-402f-901a-e98c76299be0")
-	)
-	(no_connect
-		(at 20.32 60.96)
-		(uuid "dfd2a832-3dcc-45d2-ab55-a0b1a97a7782")
 	)
 	(no_connect
 		(at 66.04 149.86)
@@ -9319,6 +9319,28 @@
 			)
 		)
 	)
+	(global_label "RST1"
+		(shape input)
+		(at 20.32 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9eba1746-a8fc-4259-9f39-385030e363c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 12.6782 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RX"
 		(shape input)
 		(at 26.67 223.52 0)
@@ -9557,28 +9579,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RST1"
-		(shape input)
-		(at 20.32 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c5509c38-5331-483d-a4e6-aaca63213e69")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 12.6782 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
