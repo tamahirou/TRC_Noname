@@ -1,0 +1,62 @@
+#!/bin/sh
+# /etc/init.d/S99aruco
+# 起動時に標準のpayload(管理プログラム)を止めて、aruco_server.py を常駐させる。
+# 無効化: touch /home/m5stack/aruco_disable して再起動 (標準のWeb UIに戻る)
+# payload には一切触れない。
+
+FLAG=/home/m5stack/aruco_disable
+APP=/home/m5stack/aruco_server.py
+PIDFILE=/tmp/aruco_loop.pid
+
+killpayload() {
+    # 親(server.py)を先に止めないと子が再起動される
+    for pid in $(ps | grep -v grep | grep "payload/server.py" | awk '{print $1}'); do
+        kill -9 $pid 2>/dev/null
+    done
+    for pid in $(ps | grep -v grep | grep "server_core.py" | awk '{print $1}'); do
+        kill -9 $pid 2>/dev/null
+    done
+    for pid in $(ps | grep -v grep | grep "\./bin/" | awk '{print $1}'); do
+        kill -9 $pid 2>/dev/null
+    done
+}
+
+loop() {
+    while [ ! -f "$FLAG" ]; do
+        killpayload
+        python3 -u "$APP" > /tmp/aruco.log 2>&1
+        sleep 5
+    done
+}
+
+case "$1" in
+    start)
+        printf "Starting aruco: "
+        if [ -f "$FLAG" ]; then
+            echo "disabled"
+            exit 0
+        fi
+        loop > /dev/null 2>&1 &
+        echo $! > "$PIDFILE"
+        echo "OK"
+        ;;
+    stop)
+        printf "Stopping aruco: "
+        [ -f "$PIDFILE" ] && kill $(cat "$PIDFILE") 2>/dev/null
+        for pid in $(ps | grep -v grep | grep "aruco_server.py" | awk '{print $1}'); do
+            kill $pid 2>/dev/null
+        done
+        echo "OK"
+        ;;
+    restart|reload)
+        $0 stop
+        sleep 1
+        $0 start
+        ;;
+    *)
+        echo "Usage: $0 {start|stop|restart}"
+        exit 1
+        ;;
+esac
+
+exit 0
